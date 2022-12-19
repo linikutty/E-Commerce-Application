@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+  
+    body{
+      background-image: url('https://wallpaper.dog/large/10772211.jpg');
+    }
+  
+  
+    /* login */
+  
+    /* Importing fonts from Google */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+  
+  /* Reseting */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  
+  
+  .wrapper {
+      max-width: 350px;
+      min-height: 500px;
+      margin: 80px auto;
+      padding: 40px 30px 30px 30px;
+      background-color: #ecf0f3;
+      border-radius: 15px;
+      box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .logo {
+      width: 80px;
+      margin: auto;
   }
-}
+  
+  .logo img {
+      width: 100%;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0px 0px 3px #5f5f5f,
+          0px 0px 0px 5px #ecf0f3,
+          8px 8px 15px #a7aaa7,
+          -8px -8px 15px #fff;
+  }
+  
+  .wrapper .name {
+      font-weight: 600;
+      font-size: 30px;
+      padding-bottom: 20px;
+      letter-spacing: 1.3px;
+      padding-left: 10px;
+      color: #555;
+  }
+  
+  .wrapper .form-field input {
+      width: 100% !important;
+      /* height:20px !important; */
+      display: block;
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 1.2rem;
+      color: #666;
+      padding: 30px 15px 10px 10px;
+      /* border: 1px solid red; */
+  }
+  
+  .wrapper .form-field {
+      width: 100% !important;
+      height:50px !important; 
+      font-size: 18px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  }
+  
+  .wrapper .form-field .fas {
+      color: #555;
+  }
+  .btnsign{
+      font-size: 18px !important;
+      padding-top: 10px !important;
+  }
+  
+  .msg{
+      color: #cb0808;
+  }
+  
+  .wrapper .btn {
+      box-shadow: none;
+      width: 100%;
+      height: 40px;
+      background-color: #03A9F4;
+      color: #fff;
+      border-radius: 25px;
+      box-shadow: 3px 3px 3px #b1b1b1,
+          -3px -3px 3px #fff;
+      letter-spacing: 1.3px;
+  }
+  
+  .wrapper .btn:hover {
+      background-color: #039BE5;
+  }
+  
+  .wrapper a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      color: #03A9F4;
+  }
+  
+  .wrapper a:hover {
+      color: #039BE5;
+  }
+  
+  @media(max-width: 380px) {
+      .wrapper {
+          margin: 30px 20px;
+          padding: 40px 15px 15px 15px;
+      }
+  }
+  
+  /* //home */
+  
+  .nav_head{
+  
+      background-color: rgb(36, 165, 26)!important;
+     
+    }
+    .link{
+      color: white !important;
+      font-size: 35px;
+      font-family:'Times New Roman', Times, serif;
+      padding-left: 25px;
+    }
+  
+    /* //profile */
+    .text1 {
+      font-family: raleway;
+      font-size: 21px;
+      text-align: center;
+      margin-top: -20px;
+      color: #000;
+    }
+    
+    .image {
+      text-align: center;
+      width: 200px;
+      /* Container's dimensions */
+      
+      height: 200px;
+      /* -webkit-border-radius: 75%;
+      -moz-border-radius: 75%; */
+      box-shadow: 0 0 0 1px #eee;
+      background: url("https://images.unsplash.com/reserve/ysPfhVSzSP2m629CW0mw_selfPortrait.jpg?fit=crop&fm=jpg&h=700&q=80&w=1225") center center no-repeat;
+      background-size: cover;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: -30px;
+      align-content: center;
+    }
+    .items{
+       border: 2px solid black; 
+       display: inline-block;
+    }
+    /* .cart{
+        display: inline-flex;
+
+    } */
+    .para{
+        color:#120367;
+    }
